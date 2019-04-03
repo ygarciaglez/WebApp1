@@ -1,0 +1,35 @@
+.Carousel{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 18vmin;
+}
+.arrow{
+    height: 10vmin;
+    width: 10vmin;
+}
+
+.ArrowButtoms{
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 10%; 
+    height: 100%;  
+}
+.ArrowButtoms:hover {
+    
+    background-color: rgba(78, 71, 71, 0.1);
+  }
+
+.CarouselContainer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    width: 80%;
+}

@@ -1,0 +1,39 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    height: 15vmin;
+    background-color: #3c5380;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0vmin 7vmin 0vmin 7vmin;
+}
+.Click{
+    cursor: pointer; 
+}
+.HeaderP1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 80%;
+
+}
+.Logo{
+    height: 13vmin;
+}
+.ContainerItems{
+    
+    margin-left: 15%;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ChildItem{
+    margin-right: 8%;
+    font-size: calc(5px + 2vmin);
+    
+}

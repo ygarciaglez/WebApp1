@@ -1,0 +1,19 @@
+.Display{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 100%;   
+    font-size: calc(10px + 2vmin);
+    color: white;
+    align-items: center;
+    justify-content: flex-start
+}
+.LogoDisplay{
+    height: 40vmin;
+    background-color: black
+}
+
+.Item{
+    padding-top: 5vmin;
+}
+

@@ -1,0 +1,43 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    height: 8vmin;
+    background-color: #3C424D;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0vmin 7vmin 0vmin 7vmin;
+}
+.FotterP1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(32, 32, 32);
+    font-size: calc(6px + 1vmin);
+}
+
+.FotterP2{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: flex-end;
+}
+.ImgSocialMedia1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 3%;
+}
+.ImgSocialMedia2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconRS{
+    height: 5vmin;
+    cursor: pointer; 
+    
+}
+
