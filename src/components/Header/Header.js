@@ -53,11 +53,14 @@ class Header extends Component{
                         <img className={["Click", "Logo"].join(' ')} alt='LOGO' src={imageLogo} onClick={()=>handelClick("main")} />
                     </div>
                     <div className="ContainerItems">
-                        <p className={["Click", "ChildItem"].join(' ')} onClick={()=>handelClick("settings")}>My Information</p>
+                        <div className={["Click", "ChildItem"].join(' ')} onClick={()=>handelClick("settings")}>
+                           My Information
+                        </div>
                     </div>
                     
+                    
                 </div>
-                <p className="Click" onClick={()=>handelClick("login")}>{labelOpc()}</p>
+                    <div className={["Click", "LogInOut"].join(' ')} onClick={()=>handelClick("login")}>{labelOpc()}</div>
                 {toRender()}
             </div>
         )

@@ -31,5 +31,12 @@
     justify-content: center;
     align-content: center;
     text-align: center; 
-    width: 80%;
+    
+    width: 80vw    /* Occupy the 90% of the screen width */
+    
+
+}
+.imgCarousel{
+    width: 50vw;
+
 }

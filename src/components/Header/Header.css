@@ -33,7 +33,16 @@
     justify-content: flex-start;
 }
 .ChildItem{
-    margin-right: 8%;
+    /*margin-right: 8%;*/
     font-size: calc(5px + 2vmin);
+    padding: 0% 2% 0% 2%;
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+    
+}
+.LogInOut{
+    border: 1.5px solid white;
+    padding: 1px 18px 1px 18px;
+    border-radius: 15px ;
     
 }

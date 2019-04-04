@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 50%;
     min-height: 100%;   
-    font-size: calc(10px + 2vmin);
+    font-size: calc(5px + 2vmin);
     color: white;
     align-items: center;
     justify-content: flex-start
