@@ -6,24 +6,22 @@ import './Settings.css'
 import { Redirect } from 'react-router-dom';
 
 class Settings extends Component{
-   
+    state={
+        session: localStorage.getItem("session")
+    }
     render(){
-        let session = localStorage.getItem("session")
-       
         const validateSession = () => {
-           
-            if(session !== 'true'){
-               
+            if(this.state.session !== 'true'){
                 return <Redirect to={{pathname: '/login'}} />;
             }
         }
-
+        
         return(
             <div className="Settings">
                 {validateSession()}
                 <Header session={localStorage.getItem("session")} />
                 <div className="containerSettings">
-                  <Display />
+                    <Display />
                 </div>
                 <Footer />
             </div>

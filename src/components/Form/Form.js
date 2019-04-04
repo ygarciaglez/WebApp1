@@ -6,7 +6,7 @@ import Alert from 'react-bootstrap/Alert';
 import TextField from '@material-ui/core/TextField';
 import { Redirect } from 'react-router-dom';
 
-const form = (props) => {
+const form = () => {
     let [requiredPas,requiredPasUS]=useState({
         showErrorPass:false,
     })
@@ -41,7 +41,6 @@ const form = (props) => {
             sessionSetState({
                 tokenSession:true
             })
-        
         }else{
             if(Psts.pass.length<=0){
                 requiredPasUS({
@@ -81,6 +80,11 @@ const form = (props) => {
             message:false
         })
     }
+    const closeErrorPss = () => {
+        requiredPasUS({
+            showErrorPass:false
+        })
+    }
 
     return(
         <div className="MainContainer">
@@ -89,7 +93,8 @@ const form = (props) => {
                     variant="danger"  dismissible onClose={()=>closeError()}>
                         Your credentials are incorrect, please try again!
             </Alert>}
-            {<Alert show={requiredPas.showErrorPass}  variant="danger"  dismissible onClose={()=>closeError()}>
+            {<Alert show={requiredPas.showErrorPass} 
+                    variant="danger"  dismissible onClose={()=>closeErrorPss()}>
                         Password is required
             </Alert>}
             <div className="Form">

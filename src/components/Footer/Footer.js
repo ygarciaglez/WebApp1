@@ -8,22 +8,22 @@ const footer=()=>{
     return(
         <div className="Footer">
             <div className="FotterP1">
-                <div>© 2019 Safari. Terms of Service | Privacy Policy</div>
+                <div>© 2019 YGarciaglez. Terms of Service | Privacy Policy</div>
             </div>
 
             <div className="FotterP2">
             <div className="ImgSocialMedia1">
-                    <a className="ImgSocialMedia2" href="http://facebook.com" target="_blank">
+                    <a className="ImgSocialMedia2" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
                         <img className="iconRS"  src={Fac} alt='FACEBOOK' />
                     </a>
                 </div>
                 <div className="ImgSocialMedia1">
-                    <a className="ImgSocialMedia2" href="https://www.instagram.com" target="_blank">
+                    <a className="ImgSocialMedia2" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                         <img className="iconRS"  src={Ins} alt='INSTAGRAM'/>
                     </a>
                 </div>
                 <div className="ImgSocialMedia1">
-                    <a className="ImgSocialMedia2" href="https://twitter.com/" target="_blank">
+                    <a className="ImgSocialMedia2" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                         <img className="iconRS" src={Twt} alt='TWITTER' />
                     </a>
                 </div>
